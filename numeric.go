@@ -1,4 +1,4 @@
-// Package numeric provides helper functions to deal with numeric data; and accounts for all UNICODE numeric characters.
+// Package numeric provides helper functions to deal with runes that represent numeric values.
 package numeric
 
 const (
