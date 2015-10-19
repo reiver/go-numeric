@@ -476,6 +476,29 @@ func TestInt64(t *testing.T) {
 			Rune:    '〺', // Hangzhou Numeral Thirty
 			Expected: 30,
 		},
+
+
+
+		{
+			Rune: '𐏑', // Old Persian Number One
+			Expected: 1,
+		},
+		{
+			Rune: '𐏒', // Old Persian Number Two
+			Expected: 2,
+		},
+		{
+			Rune: '𐏓', // Old Persian Number Ten
+			Expected: 10,
+		},
+		{
+			Rune: '𐏔', // Old Persian Number Twenty
+			Expected: 20,
+		},
+		{
+			Rune: '𐏕', // Old Persian Number Hundred
+			Expected: 100,
+		},
 	}
 
 

@@ -134,7 +134,6 @@ const (
 	TurnedDigitTwo   = '\u218A' // Turned Digit Two   (Duodecimal 10)
 	TurnedDigitThree = '\u218B' // Turned Digit Three (Duodecimal 11)
 
-
 	HangzhouNumeralOne    = '\u3021' // Hangzhou Numeral One    (〡)
 	HangzhouNumeralTwo    = '\u3022' // Hangzhou Numeral Two    (〢)
 	HangzhouNumeralThree  = '\u3023' // Hangzhou Numeral Three  (〣)
@@ -149,6 +148,12 @@ const (
 	HangzhouNumeralTwenty = '\u3039' // Hangzhou Numeral Twenty (〹)
 
 	HangzhouNumeralThirty = '\u303A' // Hangzhou Numeral Thrity (〺)
+
+	OldPersianNumberOne     = '\U000103D1' // Old Persian Number One     (𐏑)
+	OldPersianNumberTwo     = '\U000103D2' // Old Persian Number Two     (𐏒)
+	OldPersianNumberTen     = '\U000103D3' // Old Persian Number Ten     (𐏓)
+	OldPersianNumberTwenty  = '\U000103D4' // Old Persian Number Twenty  (𐏔)
+	OldPersianNumberHundred = '\U000103D5' // Old Persian Number Hundred (𐏕)
 )
 
 
@@ -310,7 +315,13 @@ func IsNumeric(r rune) bool {
 			HangzhouNumeralTen,
 			HangzhouNumeralTwenty,
 
-			HangzhouNumeralThirty:
+			HangzhouNumeralThirty,
+
+			OldPersianNumberOne,
+			OldPersianNumberTwo,
+			OldPersianNumberTen,
+			OldPersianNumberTwenty,
+			OldPersianNumberHundred:
 
 			result = true
 		default:

@@ -448,6 +448,24 @@ func TestIsNumericTrue(t *testing.T) {
 		{
 			Rune: '〺', // Hangzhou Numeral Thirty
 		},
+
+
+
+		{
+			Rune: '𐏑', // Old Persian Number One
+		},
+		{
+			Rune: '𐏒', // Old Persian Number Two
+		},
+		{
+			Rune: '𐏓', // Old Persian Number Ten
+		},
+		{
+			Rune: '𐏔', // Old Persian Number Twenty
+		},
+		{
+			Rune: '𐏕', // Old Persian Number Hundred
+		},
 	}
 
 

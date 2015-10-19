@@ -123,6 +123,12 @@ var (
 		HangzhouNumeralTwenty : 20,
 
 		HangzhouNumeralThirty : 30,
+
+		OldPersianNumberOne     : 1,
+		OldPersianNumberTwo     : 2,
+		OldPersianNumberTen     : 10,
+		OldPersianNumberTwenty  : 20,
+		OldPersianNumberHundred : 100,
 	}
 )
 

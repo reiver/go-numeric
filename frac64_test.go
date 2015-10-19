@@ -702,6 +702,34 @@ func TestFrac64(t *testing.T) {
 			ExpectedNumerator:   30,
 			ExpectedDenominator: 1,
 		},
+
+
+
+		{
+			Rune:               '𐏑', // Old Persian Number One
+			ExpectedNumerator:   1,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '𐏒', // Old Persian Number Two
+			ExpectedNumerator:   2,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '𐏓', // Old Persian Number Ten
+			ExpectedNumerator:   10,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '𐏔', // Old Persian Number Twenty
+			ExpectedNumerator:   20,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '𐏕', // Old Persian Number Hundred
+			ExpectedNumerator:   100,
+			ExpectedDenominator: 1,
+		},
 	}
 
 
