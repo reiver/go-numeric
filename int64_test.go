@@ -462,6 +462,20 @@ func TestInt64(t *testing.T) {
 			Rune:    '〩', // Hangzhou Numeral Nine
 			Expected: 9,
 		},
+
+		{
+			Rune:    '〸', // Hangzhou Numeral Ten
+			Expected: 10,
+		},
+		{
+			Rune:    '〹', // Hangzhou Numeral Twenty
+			Expected: 20,
+		},
+
+		{
+			Rune:    '〺', // Hangzhou Numeral Thirty
+			Expected: 30,
+		},
 	}
 
 
