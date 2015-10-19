@@ -19,6 +19,7 @@ var r rune = '2'
 //var r rune = '۲'
 //var r rune = 'Ⅱ'
 //var r rune = 'ⅱ'
+//var r rune = '〢'
 
 
 i64, err := numeric.Int64(test.Rune)
@@ -43,7 +44,6 @@ var r rune = '½'
 //var r rune = '⅗'
 //var r rune = 'Ⅵ'
 //var r rune = 'ⅺ'
-//var r rune = '〢'
 
 
 n64, d64, err := numeric.Frac64(test.Rune)
