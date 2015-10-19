@@ -104,7 +104,7 @@ const (
 	RomanNumeralOneThousand = '\u216F' // Roman Numeral One Thousand (Ⅿ)
 
 	SmallRomanNumeralOne         = '\u2170' // Small Roman Numeral One          (ⅰ)
-	SmallRomanNumeralTwo         = '\u2171' // Small Roman Numeral Two          (ⅱ) 
+	SmallRomanNumeralTwo         = '\u2171' // Small Roman Numeral Two          (ⅱ)
 	SmallRomanNumeralThree       = '\u2172' // Small Roman Numeral Three        (ⅲ)
 	SmallRomanNumeralFour        = '\u2173' // Small Roman Numeral Four         (ⅳ)
 	SmallRomanNumeralFive        = '\u2174' // Small Roman Numeral Five         (ⅴ)
@@ -295,7 +295,22 @@ func IsNumeric(r rune) bool {
 			RomanNumeralOneHundredThousand,
 
 			TurnedDigitTwo,
-			TurnedDigitThree:
+			TurnedDigitThree,
+
+			HangzhouNumeralOne,
+			HangzhouNumeralTwo,
+			HangzhouNumeralThree,
+			HangzhouNumeralFour,
+			HangzhouNumeralFive,
+			HangzhouNumeralSix,
+			HangzhouNumeralSeven,
+			HangzhouNumeralEight,
+			HangzhouNumeralNine,
+
+			HangzhouNumeralTen,
+			HangzhouNumeralTwenty,
+
+			HangzhouNumeralThirty:
 
 			result = true
 		default:
