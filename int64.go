@@ -108,6 +108,16 @@ var (
 
 		TurnedDigitTwo   : 10,
 		TurnedDigitThree : 11,
+
+		HangzhouNumeralOne   : 1,
+		HangzhouNumeralTwo   : 2,
+		HangzhouNumeralThree : 3,
+		HangzhouNumeralFour  : 4,
+		HangzhouNumeralFive  : 5,
+		HangzhouNumeralSix   : 6,
+		HangzhouNumeralSeven : 7,
+		HangzhouNumeralEight : 8,
+		HangzhouNumeralNine  : 9,
 	}
 )
 

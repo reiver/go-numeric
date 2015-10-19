@@ -423,6 +423,45 @@ func TestInt64(t *testing.T) {
 			Rune:    '↋', // Turned Digit Three (Duodecimal 10)
 			Expected: 11,
 		},
+
+
+
+		{
+			Rune:    '〡', // Hangzhou Numeral One
+			Expected: 1,
+		},
+		{
+			Rune:    '〢', // Hangzhou Numeral Two
+			Expected: 2,
+		},
+		{
+			Rune:    '〣', // Hangzhou Numeral Three
+			Expected: 3,
+		},
+		{
+			Rune:    '〤', // Hangzhou Numeral Four
+			Expected: 4,
+		},
+		{
+			Rune:    '〥', // Hangzhou Numeral Five
+			Expected: 5,
+		},
+		{
+			Rune:    '〦', // Hangzhou Numeral Six
+			Expected: 6,
+		},
+		{
+			Rune:    '〧', // Hangzhou Numeral Seven
+			Expected: 7,
+		},
+		{
+			Rune:    '〨', // Hangzhou Numeral Eight
+			Expected: 8,
+		},
+		{
+			Rune:    '〩', // Hangzhou Numeral Nine
+			Expected: 9,
+		},
 	}
 
 

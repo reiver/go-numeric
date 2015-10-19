@@ -132,7 +132,18 @@ const (
 
 
 	TurnedDigitTwo   = '\u218A' // Turned Digit Two   (Duodecimal 10)
-	TurnedDigitThree = '\u218B' // Turned Digit Three (Duodecimal 11)	
+	TurnedDigitThree = '\u218B' // Turned Digit Three (Duodecimal 11)
+
+
+	HangzhouNumeralOne   = '\u3021' // Hangzhou Numeral One   (〡)
+	HangzhouNumeralTwo   = '\u3022' // Hangzhou Numeral Two   (〢)
+	HangzhouNumeralThree = '\u3023' // Hangzhou Numeral Three (〣)
+	HangzhouNumeralFour  = '\u3024' // Hangzhou Numeral Four  (〤)
+	HangzhouNumeralFive  = '\u3025' // Hangzhou Numeral Five  (〥)
+	HangzhouNumeralSix   = '\u3026' // Hangzhou Numeral Six   (〦)
+	HangzhouNumeralSeven = '\u3027' // Hangzhou Numeral Seven (〧)
+	HangzhouNumeralEight = '\u3028' // Hangzhou Numeral Eight (〨)
+	HangzhouNumeralNine  = '\u3029' // Hangzhou Numeral Nine  (〩)
 )
 
 

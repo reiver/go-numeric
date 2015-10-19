@@ -638,6 +638,53 @@ func TestFrac64(t *testing.T) {
 			ExpectedDenominator: 1,
 		},
 
+
+
+		{
+			Rune:               '〡', // Hangzhou Numeral One
+			ExpectedNumerator:   1,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〢', // Hangzhou Numeral Two
+			ExpectedNumerator:   2,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〣', // Hangzhou Numeral Three
+			ExpectedNumerator:   3,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〤', // Hangzhou Numeral Four
+			ExpectedNumerator:   4,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〥', // Hangzhou Numeral Five
+			ExpectedNumerator:   5,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〦', // Hangzhou Numeral Six
+			ExpectedNumerator:   6,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〧', // Hangzhou Numeral Seven
+			ExpectedNumerator:   7,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〨', // Hangzhou Numeral Eight
+			ExpectedNumerator:   8,
+			ExpectedDenominator: 1,
+		},
+		{
+			Rune:               '〩', // Hangzhou Numeral Nine
+			ExpectedNumerator:   9,
+			ExpectedDenominator: 1,
+		},
 	}
 
 
