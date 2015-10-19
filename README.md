@@ -20,6 +20,7 @@ var r rune = '2'
 //var r rune = 'Ⅱ'
 //var r rune = 'ⅱ'
 //var r rune = '〢'
+//var r rune = '𐏒'
 
 
 i64, err := numeric.Int64(test.Rune)
