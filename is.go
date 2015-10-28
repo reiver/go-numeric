@@ -7,16 +7,27 @@ package numeric
 // Namely:
 //
 // Hangzhou Numeral One    (〡)
+//
 // Hangzhou Numeral Two    (〢)
+//
 // Hangzhou Numeral Three  (〣)
+//
 // Hangzhou Numeral Four   (〤)
+//
 // Hangzhou Numeral Five   (〥)
+//
 // Hangzhou Numeral Six    (〦)
+//
 // Hangzhou Numeral Seven  (〧)
+//
 // Hangzhou Numeral Eight  (〨)
+//
 // Hangzhou Numeral Nine   (〩)
+//
 // Hangzhou Numeral Ten    (〸)
+//
 // Hangzhou Numeral Twenty (〹)
+//
 // Hangzhou Numeral Thrity (〺)
 func IsHangzhouNumeral(r rune) bool {
 
@@ -50,9 +61,13 @@ func IsHangzhouNumeral(r rune) bool {
 // Namely:
 //
 // Old Persian Number One     (𐏑)
+//
 // Old Persian Number Two     (𐏒)
+//
 // Old Persian Number Ten     (𐏓)
+//
 // Old Persian Number Twenty  (𐏔)
+//
 // Old Persian Number Hundred (𐏕)
 func IsOldPersianNumber(r rune) bool {
 
