@@ -24,3 +24,21 @@ func ExampleNotInRangeComplainer() {
 
 	fmt.Printf("The int64 number is: %d.\n", i64)
 }
+
+
+func ExampleNotNumericComplainer() {
+
+	r := '&'
+
+	i64, err := numeric.Int64(r)
+	if nil != err {
+		switch err.(type) {
+		case numeric.NotNumericComplainer:
+			fmt.Printf("The rune %s is NOT numeric.\n", r)
+		default:
+			fmt.Println("Some other error.")
+		}
+	}
+
+	fmt.Printf("The int64 number is: %d.\n", i64)
+}
